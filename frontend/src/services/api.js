@@ -4,7 +4,7 @@ const API_URL = '/api'
 
 // Create axios instance with credentials for cookie handling
 const api = axios.create({
-  baseURL: API_URL,
+  baseURL: 'https://mag-project-44o3.onrender.com/api',
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
